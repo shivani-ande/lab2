@@ -20,6 +20,9 @@ jobs:
 
   job2:
     runs-on: ubuntu-latest
-    name: 'Printing Custom Message'
+    name: 'Printing run-job boolean value'
+    if: inputs.run-job == 'true'
     steps:
-      - run: echo ${{ inputs.custom_messages }}
+      - run: echo ${{ inputs.run-job }}
+    
+    
