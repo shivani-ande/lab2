@@ -8,7 +8,7 @@ on:
         type: boolean
         required: false
       custom_message:
-        description: 'Enter a custom message
+        description: 'Enter a custom message'
         type: string
         required: true
 
